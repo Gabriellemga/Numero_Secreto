@@ -6,7 +6,7 @@ let tentativas = 1;
 function inserirTexto(tag, titulo){
     let texto = document.querySelector(tag);
     texto.innerHTML = (titulo);
-    responsiveVoice.speak(titulo,'Brazilian Portuguese Male',{rate:1.2});
+    responsiveVoice.speak(titulo,'Brazilian Portuguese Female',{rate:1.2});
 }
 
 function exibirMensagemInicial(){
