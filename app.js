@@ -16,7 +16,7 @@ function inserirTexto(tag, titulo){
 
 function exibirMensagemInicial(){
     inserirTexto ('h1', ' Jogo do número secreto');
-    inserirTexto ('p', 'Escolha um numero entre 1 e 10');
+    inserirTexto ('p', 'Escolha um numero entre 1 e 100');
 }
 
 exibirMensagemInicial();
