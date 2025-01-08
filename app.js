@@ -10,8 +10,8 @@ function inserirTexto(tag, titulo){
 }
 
 function exibirMensagemInicial(){
-    inserirTexto ('h1', '  número secreto');
-    inserirTexto ('p', 'Escolha um numero entre 1 e 100');
+    inserirTexto ('h1', ' Jogo do número secreto');
+    inserirTexto ('p', 'Escolha um numero entre 1 e 50');
 }
 
 exibirMensagemInicial();
