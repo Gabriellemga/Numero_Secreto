@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 100;
+let numeroLimite = 10;
 let numeroSecreto = gerarNumeAleatorio();
 let tentativas = 1;
 
@@ -10,8 +10,8 @@ function inserirTexto(tag, titulo){
 }
 
 function exibirMensagemInicial(){
-    inserirTexto ('h1', ' Jogo do número secreto');
-    inserirTexto ('p', 'Escolha um numero entre 1 e 50');
+    inserirTexto ('h1', '  número secreto');
+    inserirTexto ('p', 'Escolha um numero entre 1 e 100');
 }
 
 exibirMensagemInicial();
@@ -35,7 +35,7 @@ function verificarChute(){
 }
 
 function gerarNumeAleatorio(){
-        let numeroEscolhido = parseInt(Math.random() *numeroLimite + 10);
+        let numeroEscolhido = parseInt(Math.random() *numeroLimite + 1);
         let quantidadeElementosLista = listaDeNumerosSorteados.length;
 
     if (quantidadeElementosLista == numeroLimite){
